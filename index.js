@@ -6,7 +6,7 @@ function parse ($, dom) {
   var title = dom.find('h2').last().text().trim();
 
   return dom.find('tr').map(function (index, element) {
-    var element = $(element);
+    element = $(element);
     var el = {
       name: element.find('.title'),
       number: element.find('.t18Red')
@@ -57,7 +57,7 @@ function parse ($, dom) {
  */
 exports.query = function (callback, timeout) {
   var cb = typeof callback === 'function' ? callback : function () {};
-  var timeout = timeout || 10 * 1000;
+  timeout = timeout || 10 * 1000;
 
   var options = {
     hostname: host,
