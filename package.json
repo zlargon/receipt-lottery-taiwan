@@ -1,6 +1,6 @@
 {
   "name": "receipt-lottery-taiwan",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Getting winning numbers of Taiwan Receipt Lottery (Node.js)",
   "main": "index.js",
   "scripts": {
