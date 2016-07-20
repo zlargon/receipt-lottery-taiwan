@@ -60,7 +60,7 @@ ReceiptLottery.query(function (err, info) {
 //       "description": "同期統一發票收執聯末3 位數號碼與頭獎中獎號碼末3 位相同者各得獎金2 百元",
 //       "numbers": []
 //     },
-//     "addtion": {
+//     "addition": {
 //       "name": "增開六獎",
 //       "description": "同期統一發票收執聯末3 位數號碼與上列號碼相同者各得獎金2 百元",
 //       "numbers": [
@@ -118,7 +118,7 @@ ReceiptLottery.query(function (err, info) {
 //       "description": "同期統一發票收執聯末3 位數號碼與頭獎中獎號碼末3 位相同者各得獎金2 百元",
 //       "numbers": []
 //     },
-//     "addtion": {
+//     "addition": {
 //       "name": "增開六獎",
 //       "description": "同期統一發票收執聯末3 位數號碼與上列號碼相同者各得獎金2 百元",
 //       "numbers": [
