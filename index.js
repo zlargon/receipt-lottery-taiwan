@@ -29,15 +29,15 @@ function parse ($, dom) {
   .reduce(function (prize, item, index) {
     var key = null;
     switch (index) {
-      case 1: key = 'super';   break;
-      case 2: key = 'special'; break;
-      case 3: key = 'first';   break;
-      case 4: key = 'second';  break;
-      case 5: key = 'thrid';   break;
-      case 6: key = 'fourth';  break;
-      case 7: key = 'fifth';   break;
-      case 8: key = 'sixth';   break;
-      case 9: key = 'addtion'; break;
+      case 1: key = 'super';    break;
+      case 2: key = 'special';  break;
+      case 3: key = 'first';    break;
+      case 4: key = 'second';   break;
+      case 5: key = 'thrid';    break;
+      case 6: key = 'fourth';   break;
+      case 7: key = 'fifth';    break;
+      case 8: key = 'sixth';    break;
+      case 9: key = 'addition'; break;
       default:
         return prize;
     }

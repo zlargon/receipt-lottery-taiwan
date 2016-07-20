@@ -1,4 +1,4 @@
-var ReceiptLottery = require('receipt-lottery-taiwan');
+var ReceiptLottery = require('./index');
 
 ReceiptLottery.query(function (err, info) {
   if (err) {
