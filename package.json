@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/zlargon/receipt-lottery-taiwan#readme",
   "dependencies": {
-    "cheerio": "^0.20.0"
+    "cheerio": "^0.22.0"
   }
 }
